@@ -16,6 +16,9 @@ dependencies = [
     "urllib3>=2.3.0",
 ]
 
+[project.urls]
+Repository = "https://github.com/soda92/conan/tree/my-server"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
