@@ -643,6 +643,7 @@ version = "2025.1.26.0"
 source = { editable = "." }
 dependencies = [
     { name = "bottle" },
+    { name = "colorama" },
     { name = "fasteners" },
     { name = "jinja2" },
     { name = "patch-ng" },
@@ -662,6 +663,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "bottle", specifier = ">=0.13.2" },
+    { name = "colorama", specifier = ">=0.4.6" },
     { name = "fasteners", specifier = ">=0.19" },
     { name = "jinja2", specifier = ">=3.1.5" },
     { name = "patch-ng", specifier = ">=1.18.1" },
