@@ -2,7 +2,7 @@
 name = "soda-conan-server"
 version = "2025.1.26.0"
 description = "soda's conan server"
-readme = "README.md"
+readme = "README_soda.md"
 requires-python = ">=3.10"
 dependencies = [
     "bottle>=0.13.2",
